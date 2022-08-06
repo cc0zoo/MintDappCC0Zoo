@@ -205,7 +205,7 @@ function App() {
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24, maxHeight:700 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 24, }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
@@ -217,8 +217,6 @@ function App() {
             style={{
               backgroundColor: "var(--accent)",
               padding: 24,
-              maxHeight: 550,
-              maxWidth: 550,
               borderRadius: 40,
               border: "4px var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
